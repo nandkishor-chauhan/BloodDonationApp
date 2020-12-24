@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestBloodActivity"
+    android:id="@+id/requestBloodLayout"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/side_padding"
+            android:layout_marginBottom="@dimen/margin_bottom">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/TextLabel"
+                app:passwordToggleEnabled="true">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:padding="8dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/TextLabel"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="@dimen/margin_top">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="8dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/TextLabel"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="@dimen/margin_top">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/contactNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Contact Number"
+                    android:inputType="numberSigned"
+                    android:padding="8dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:layout_marginTop="@dimen/margin_top"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"/>
+            <Spinner
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_background"
+                android:padding="8dp"
+                android:entries="@array/city_names"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blood_group"
+                android:layout_marginTop="@dimen/margin_top"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"/>
+            <Spinner
+                android:id="@+id/bloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_background"
+                android:padding="8dp"
+                android:entries="@array/blood_group2"/>
+
+            <CheckBox
+                android:id="@+id/term_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                android:text="@string/i_accept_the_terms_and_conditions_all_the_details_above_are_correct_and_misuse_of_this_can_lead_to_legal_action"
+                android:textColor="@color/colorPrimary"
+                android:gravity="top"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/light_red"
+            android:text="@string/request"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:clickable="false"
+            android:enabled="false"
+            android:textSize="@dimen/normal_text"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorRepresentationFragment"
+    android:orientation="vertical">
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="@dimen/large_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/side_padding"
+        android:paddingLeft="@dimen/side_padding"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/male_donor"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/maleDonor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/_100"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/top">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/female_donor"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/femaleDonor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/_100"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/top">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/total_donor"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/totalDonor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/_100"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/normal_text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

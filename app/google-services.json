@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "554513864430",
+    "firebase_url": "https://adityabloodcross-54d96.firebaseio.com",
+    "project_id": "adityabloodcross-54d96",
+    "storage_bucket": "adityabloodcross-54d96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554513864430:android:dce5a9dc61f6f4d7",
+        "android_client_info": {
+          "package_name": "com.nandkishor.adityabloodcross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554513864430-99ctoqtatcv2q4m5tk7kedi4j35iqt1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nandkishor.adityabloodcross",
+            "certificate_hash": "d2c119186a4b09fa0c741385864d601c84d30c38"
+          }
+        },
+        {
+          "client_id": "554513864430-j9gf853g270vfttqt492v5k1vln48nd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTdXd86dOcJudPPBso-OfyCTS9Odlyqho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554513864430-j9gf853g270vfttqt492v5k1vln48nd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

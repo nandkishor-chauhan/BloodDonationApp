@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Aditya Blood Cross</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="title_activity_home">Aditya Blood Cross</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notification">Notification</string>
+    <string name="full_name">Full Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="roll_number">Roll Number / Employee ID</string>
+    <string name="email">Email</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="college_name">College Name</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="add_member">Add Member</string>
+
+
+    <string-array name="college_name">
+        <item>Aditya Engineering College</item>
+        <item>Aditya College of Engineering</item>
+        <item>Aditya College of Engineering &amp; Technology </item>
+        <item>Aditya College of Pharmacy</item>
+        <item>Aditya Forensic Science</item>
+        <item>Aditya Global Business Schools</item>
+        <item>Aditya Pharmacy College</item>
+        <item>Aditya Polytechnic Colleges</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>None</item>
+        <item>AE</item>
+        <item>AMBA</item>
+        <item>B.Pharmacy</item>
+        <item>BBA</item>
+        <item>BM</item>
+        <item>Civil</item>
+        <item>CME</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>Forensic</item>
+        <item>GMBA</item>
+        <item>IMBA</item>
+        <item>IT</item>
+        <item>M.Pharacy(Analysis)</item>
+        <item>M.Pharacy(Pharmaceutics)</item>
+        <item>M.Pharm</item>
+        <item>MBA</item>
+        <item>MA</item>
+        <item>MECH</item>
+        <item>PET</item>
+        <item>PGDM</item>
+        <item>Pharm.D</item>
+        <item>Pharm.D(PB)</item>
+        <item>PT</item>
+        <item>MCA</item>
+        <item>BPED</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="venue">
+        <item>Abdul Kalam Bhawan</item>
+        <item>Aditya College of Pharmacy</item>
+        <item>Bill Gates Bhavan</item>
+        <item>Cotton Bhavan</item>
+        <item>C.V Raman Bhavan</item>
+        <item>K.L. Rao Bhavan</item>
+        <item>Netwon Bhavan</item>
+        <item>Ramanujan Bhavan</item>
+        <item>Visweswaraya Bhavan</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>Don"'"t know</item>
+    </string-array>
+
+    <string-array name="blood_group2">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>None</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    </string-array>
+
+    <string-array name="section">
+        <item>None</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="city_names">
+        <item>Adoni</item>
+        <item>Amaravati</item>
+        <item>Anantapur</item>
+        <item>Bhimavaram</item>
+        <item>Chilakaluripet</item>
+        <item>Chittoor</item>
+        <item>Dharmavaram</item>
+        <item>Eluru</item>
+        <item>Gudivada</item>
+        <item>Guntakal</item>
+        <item>Guntur</item>
+        <item>Hindupur</item>
+        <item>Kadapa</item>
+        <item>Kakinada</item>
+        <item>Kavali</item>
+        <item>Kurnool</item>
+        <item>Machilipatnam</item>
+        <item>Madanapalle</item>
+        <item>Nellore</item>
+        <item>Nandyal</item>
+        <item>Narasaraopet</item>
+        <item>Ongole</item>
+        <item>Proddatur</item>
+        <item>Rajmundry</item>
+        <item>Srikakulam</item>
+        <item>Surampalem</item>
+        <item>Tadepalligudem</item>
+        <item>Tadipatri</item>
+        <item>Tenali</item>
+        <item>Tirupati</item>
+        <item>Vijayawada</item>
+        <item>Visakhapatnam</item>
+        <item>Vizianagaram</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="request">Request</string>
+    <string name="i_accept_the_terms_and_conditions_all_the_details_above_are_correct_and_misuse_of_this_can_lead_to_legal_action">I accept the terms and conditions. All the details mentioned above are correct and misuse of Aditya Blood Cross App can lead to severe legal action.</string>
+    <string name="department">Department</string>
+    <string name="section">Section</string>
+    <string name="year">Year</string>
+    <string name="venue">Venue</string>
+    <string name="blood_required">Blood Required</string>
+    <string name="todo">TODO</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="male_donor">Male Donor</string>
+    <string name="_100">100</string>
+    <string name="female_donor">Female Donor</string>
+    <string name="total_donor">Total Donor</string>
+    <string name="nothing_to_show">Nothing to show</string>
+    <string name="date">Date</string>
+    <string name="reset_password">Reset Password</string>
+
+
+</resources>
